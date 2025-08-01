@@ -1,0 +1,50 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  font-weight:bold;
+}
+.navbar{
+  font-family: "Alfa Slab One", serif;
+  background-color: #339DDC;
+  color: #FFE600;
+  padding-right: 15px;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+li{
+  display: inline;
+  list-style: none;
+}
+li a{
+  color: #FFE600;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+#cartpic a img {
+  width: 70px;
+  height: 50px;
+}
+ul button{
+  background-color:#FFE600;
+  color:black;
+  margin-left: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  width:150px;
+  margin-right: 10px;
+}
+ ul button a {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
