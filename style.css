@@ -4,32 +4,73 @@
   padding: 0;
 }
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: #ffffff;
-  font-weight:bold;
-}
-.navbar{
-  font-family: "Alfa Slab One", serif;
-  background-color: #339DDC;
-  color: #FFE600;
-  padding-right: 15px;
-}
-.navdiv {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-li{
-  display: inline;
-  list-style: none;
-}
-li a{
-  color: #FFE600;
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 25px;
-}
+      font-family: 'Lato', sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      font-weight: bold;
+    }
+
+nav {
+      background-color: #339DDC;
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+    }
+.nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+.nav-left img {
+      vertical-align: middle;
+      width: 170px;
+      height: 150px;
+    }
+.nav-center {
+      display: flex;
+      gap: 30px;
+    }
+.nav-center a {
+      color: #FFE600;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: "Alfa Slab One", serif;
+      font-size: 30px;
+      letter-spacing: 3px;
+      transition: all 500ms;
+    }
+.nav-center a:hover {
+      font-size: 40px;
+    }
+.nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+.loginbutton {
+      background-color: #FFE660;
+      color: black;
+      border-radius: 18px;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-family: "Alfa Slab One", serif;
+      text-decoration: none;
+      font-size: 25px;
+    }
+.loginbutton:hover {
+      background-color: #FFD700;
+    }
+#cartpic img {
+      width: 150px;
+      height: 120px;
+      transition: width 0.3s, height 0.3s;
+    }
+#cartpic img:hover {
+      width: 180px;
+      height: 144px;
+    }
 #cartpic a img {
   width: 70px;
   height: 50px;
